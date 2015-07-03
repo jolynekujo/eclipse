@@ -6,12 +6,12 @@ public class testSchool
 	public static void main(String[] args)
 	{
 		Scanner in = new Scanner(System.in);
-		originalPerson prici = new  originalPerson("Íô·å", 45);
-		school sc = new school("ÄÏ¾©¹¤Òµ´óÑ§", 1000, "ÄÏ¾©ÊĞÆÖ¿ÚÇøÆÖÖéÄÏÂ·XXºÅ");
-		originalPerson op1 = new originalPerson("ÍõÀö¾ê", 34);
-		teacher t1 = new teacher(op1, 9, "ÉúÎï¹¤³Ì");
+		originalPerson prici = new  originalPerson("æ±ªå³°", 45);
+		school sc = new school("å—äº¬å·¥ä¸šå¤§å­¦", 1000, "å—äº¬å¸‚æµ¦å£åŒºæµ¦ç å—è·¯XXå·");
+		originalPerson op1 = new originalPerson("ç‹XX", 34);
+		teacher t1 = new teacher(op1, 9, "ç”Ÿç‰©å·¥ç¨‹");
 		headTeacher headt = new headTeacher(t1, 30);
-		originalPerson op2 = new originalPerson("Ç®Ô£ĞÂ", 24);
+		originalPerson op2 = new originalPerson("é’±XX", 24);
 		student tester = new student(op2, 9, headt);
 		sc.show();
 		headt.lead();
